@@ -13,13 +13,13 @@
   inputs.src-xcm-v0_1_0.repo  = "xcm";
   inputs.src-xcm-v0_1_0.type  = "github";
   
-  inputs."github.com/solitudesf/x11".owner = "nim-nix-pkgs";
-  inputs."github.com/solitudesf/x11".ref   = "master";
-  inputs."github.com/solitudesf/x11".repo  = "github.com/solitudesf/x11";
-  inputs."github.com/solitudesf/x11".dir   = "";
-  inputs."github.com/solitudesf/x11".type  = "github";
-  inputs."github.com/solitudesf/x11".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."github.com/solitudesf/x11".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."github-solitudesf-x11".owner = "nim-nix-pkgs";
+  inputs."github-solitudesf-x11".ref   = "master";
+  inputs."github-solitudesf-x11".repo  = "github-solitudesf-x11";
+  inputs."github-solitudesf-x11".dir   = "master";
+  inputs."github-solitudesf-x11".type  = "github";
+  inputs."github-solitudesf-x11".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github-solitudesf-x11".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."cligen".owner = "nim-nix-pkgs";
   inputs."cligen".ref   = "master";
